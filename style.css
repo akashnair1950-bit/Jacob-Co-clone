@@ -1,0 +1,231 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: "Redaction", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.floatl{
+	float:left;
+}
+.float{
+	float:right;
+}
+.btn1 {
+  --primary: #F4FF2B;
+  --secondary: #0F191E;
+  --surface: #E2F1F2;
+  --bink: var(--secondary);  
+  --bsurf: var(--surface);   
+  position: relative;
+  isolation: isolate;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  margin-right:20px;
+  letter-spacing:3px;
+}
+.btn1-label {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  transition: inherit;
+}
+.btn1::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  color:black;
+  background: white;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+}
+.fx-1::before { transform: translateY(100%); }
+.fx-1:hover::before { transform: translateY(0); }
+.fx-1:hover .btn-label { color:black ; }
+.section{
+	height:100vh;
+	width:100%;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	padding:28.4278px 24.3667px 0px;
+	
+}
+section:nth-child(1){
+	background-image:url("https://www.datocms-assets.com/99008/1760743447-bugatti-tourbillon-2-1-1-copy.png?auto=compress%2Cformat&dpr=0.75");
+}
+section:nth-child(2){
+	background-image:
+	linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+	url("https://www.datocms-assets.com/99008/1760743447-bugatti-tourbillon-2-1-1-copy.png?auto=compress%2Cformat&dpr=0.75");
+}
+section:nth-child(3){
+	background-image:url("https://image.mux.com/Qw43XeJCpbhMZk3I00pv2Dk3UWK7UiAWb/thumbnail.webp?time=0");
+}
+section:nth-child(4){
+	background-image:url("https://image.mux.com/xAgFCd73PXRPpxAIr9payP6NQjgUky3I/thumbnail.webp?time=0");
+}
+section:nth-child(5){
+	background-image:
+	linear-gradient(#D9D9D9, #D9D9D9),
+	url("https://www.datocms-assets.com/99008/1760743447-bugatti-tourbillon-2-1-1-copy.png?auto=compress%2Cformat&dpr=0.75");
+}
+.hero-section{
+	color:white;
+}
+..hero-nav{
+	height:200px;
+	width:100%;
+	margin-bottom:20px;
+}
+.hero-nav:first-child{
+	font-size:21px;
+	font-weight:200;
+	margin-left:15px;
+	margin-top:0px;
+	letter-spacing:2px;
+}
+.nav-foot{
+	margin-top:36%;
+}
+.nav-foot-text{
+	font-size:99.2px;
+	float:clear;
+	letter-spacing:2.3px;
+}
+.info-section{
+	text-align:center;
+	color:white;
+	font-size:38px;
+	font-weight:500;
+	padding:10px;
+	letter-spacing:2px;
+	width:70%;
+	margin:8% 15%;
+}
+.info-section:first-line{
+	font-size:40px;
+}
+.color{
+	color:white;
+}
+.info-section p{
+	margin-bottom:20px;
+}
+.article-section , .article-section2{
+	text-align:center;
+	text-transform:uppercase;
+}
+.footer-section{
+	color:#0A0A0A;
+}
+.foot-head:first-child{
+	font-size:110px;
+	letter-spacing:25px;
+	text-align:center;
+}
+.foot-body{
+	border-top:1px solid black;
+	padding-bottom:20px;
+	border-bottom:1px solid black;
+}
+.list{
+	margin-left:12px;
+	height:150px;
+}
+.list li{
+	float:left;
+	margin-top:1%;
+	font-size:20px;
+	word-spacing:1px;
+}
+.list li:hover{
+	border-bottom:1px solid black;
+	cursor:pointer;
+}
+.list li::marker{
+	font-size:10px;
+}
+.marg{
+	margin-left:40%;
+}
+.contact{
+	margin-bottom:40px;
+}
+.contact a{
+	width:;
+	margin-top:15px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+.contact a:hover{
+	border-bottom:1px solid black;
+	cursor:pointer;
+}
+.btn {
+  --primary: #F4FF2B;
+  --secondary: #0F191E;
+  --surface: #E2F1F2;
+  --bink: var(--secondary);  
+  --bsurf: var(--surface);   
+  position: relative;
+  isolation: isolate;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  border: 1px solid var(--bink);
+  border-radius: 30px;
+  background: transparent;
+  color: var(--bink);
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  margin-right:20px;
+  margin-bottom:20px;
+  width:190px;
+}
+.btn-label {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  transition: inherit;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: var(--bink);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+}
+.fx-1::before { transform: translateY(100%); }
+.fx-1:hover::before { transform: translateY(0); }
+.fx-1:hover .btn-label { color: var(--bsurf); }
+sub{
+	font-size:10px;
+}
+
+.marg1{
+	margin-left:39%;
+}
+.list1{
+	height:0px;
+}
