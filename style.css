@@ -60,18 +60,16 @@
 	width:100%;
 	background-size:cover;
 	background-position:center;
-	background-attachment:fixed;
-	background-repeat:no-repeat;
 	padding:28.4278px 24.3667px 0px;
-	
+	position:sticky;
+	top:0;
+	z-index:1;
 }
 section:nth-child(1){
 	background-image:url("https://www.datocms-assets.com/99008/1760743447-bugatti-tourbillon-2-1-1-copy.png?auto=compress%2Cformat&dpr=0.75");
 }
 section:nth-child(2){
-	background-image:
-	linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-	url("https://www.datocms-assets.com/99008/1760743447-bugatti-tourbillon-2-1-1-copy.png?auto=compress%2Cformat&dpr=0.75");
+	background-color:rgba(0,0,0,0.5);
 }
 section:nth-child(3){
 	background-image:url("https://image.mux.com/Qw43XeJCpbhMZk3I00pv2Dk3UWK7UiAWb/thumbnail.webp?time=0");
@@ -87,7 +85,7 @@ section:nth-child(5){
 .hero-section{
 	color:white;
 }
-..hero-nav{
+.hero-nav{
 	height:200px;
 	width:100%;
 	margin-bottom:20px;
@@ -100,7 +98,10 @@ section:nth-child(5){
 	letter-spacing:2px;
 }
 .nav-foot{
-	margin-top:36%;
+	margin-top:22%;
+}
+.article-foot{
+	margin-top:30%;
 }
 .nav-foot-text{
 	font-size:99.2px;
@@ -125,6 +126,8 @@ section:nth-child(5){
 }
 .info-section p{
 	margin-bottom:20px;
+	position:;
+	overflow:hidden;
 }
 .article-section , .article-section2{
 	text-align:center;
